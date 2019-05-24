@@ -23,11 +23,11 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        首页: /
-        归档: /archives
-        类别 : /categories
-        标签: /tags
-        关于: /about
+        Hone: /
+        Archives: /archives
+        Categories : /categories
+        Tags: /tags
+        About: /about
     # Navigation bar links to be shown on the right
     links:
         Download on GitHub:
@@ -37,15 +37,15 @@ navbar:
 footer:
     # Links to be shown on the right of the footer section
     links:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: 'https://creativecommons.org/'
-        Attribution 4.0 International:
-            icon: fab fa-creative-commons-by
-            url: 'https://creativecommons.org/licenses/by/4.0/'
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+        # Creative Commons:
+        #     icon: fab fa-creative-commons
+        #     url: 'https://creativecommons.org/'
+        # Attribution 4.0 International:
+        #     icon: fab fa-creative-commons-by
+        #     url: 'https://creativecommons.org/licenses/by/4.0/'
+        # Download on GitHub:
+        #     icon: fab fa-github
+        #     url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Article display settings
 article:
     # Code highlight theme
@@ -154,7 +154,7 @@ widgets:
         position: left
     -
         # Widget name
-        type: 友链
+        type: links
         # Where should the widget be placed, left or right
         position: left
         # Links to be shown in the links widget
