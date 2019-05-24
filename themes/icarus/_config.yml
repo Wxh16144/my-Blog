@@ -23,16 +23,16 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        归档: /archives
+        类别 : /categories
+        标签: /tags
+        关于: /about
     # Navigation bar links to be shown on the right
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/Wxh16144/my-Blog'
 # Footer section link settings
 footer:
     # Links to be shown on the right of the footer section
@@ -117,11 +117,11 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: Your name
+        author: WuXiaohong
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        author_title: Front-End Development
         # Author's current location to be shown in the profile widget
-        location: Your location
+        location: Zhejiang Hangzhou
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
@@ -129,21 +129,21 @@ widgets:
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/Wxh16144'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://github.com/Wxh16144'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                url: 'https://twitter.com/Wxh16144'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -154,13 +154,16 @@ widgets:
         position: left
     -
         # Widget name
-        type: links
+        type: 友链
         # Where should the widget be placed, left or right
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
+            # Hexo: 'https://hexo.io'
+            # PPOffice: 'https://github.com/ppoffice'
+            Linhf: 'https://blog.linhuifeng.com'
+            52Admin : 'https://52admin.net'
+            Changjun : 'https://52chinaweb.com'
     -
         # Widget name
         type: category

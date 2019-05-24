@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: WuXiaohong
+subtitle: Front-end Development
+description: 97出生,19毕业;一年实习经验,杭州国企实习半年,独立完成杭州银行大厅案例展示项目,参与成都音乐厅后台管理系统开发,负责后期线上维护;
+keywords: Hexo,HTML,CSS,javascript,wxh,WuXiaohong,吴小红,Wu,XiaoHong,Vue,React,ngrok,nginx,juejin
+author: WuXiaohong
+language: Chinese
+timezone: Beijing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
