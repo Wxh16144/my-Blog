@@ -1,7 +1,7 @@
 ---
 title: Json生成Excel文件并下载到本地
 date: 2018-10-26 20:26:07
-tags: ['js']
+tags: ['javascript','npm']
 summary: 项目中后端返回JSON数据，我们前端需要生成Excel文件并保存
 ---
 项目中后端返回JSON数据，我们前端需要生成Excel文件并保存
