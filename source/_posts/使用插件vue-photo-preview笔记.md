@@ -1,7 +1,7 @@
 ---
 title: '使用插件vue-photo-preview笔记'
 date: 2018-11-06 17:14:53
-tags: ['css','js']
+tags: ['css','javascript','npm']
 categories: javascript
 summary: '项目过程中，需要实现点击查看大图，并实现手势操作，使用插件vue-photo-preview'
 ---
