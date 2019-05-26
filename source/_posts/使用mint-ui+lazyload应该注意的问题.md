@@ -6,9 +6,9 @@ categories: javascript
 summary: 'background-attachment: fixed 在iphone设备失效的解决'
 ---
 
-####  mint-ui
-
-在项目中如果遇到图片很多,大家一定会想到懒加载,我也遇到了,我选择使用mint-ui lazyload
+在项目中如果遇到图片很多,大家一定会想到懒加载,我也遇到了；
+我选择使用mint-ui lazyload
+<!--more-->
 关于mint-ui 大家可以去[官网](http://mint-ui.github.io/#!/zh-cn)了解一下
 lazyload 文档地址 [文档地址](http://mint-ui.github.io/docs/#/en2/lazyload)
 
