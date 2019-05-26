@@ -9,7 +9,7 @@ description: 97出生,19毕业;一年实习经验,杭州国企实习半年,独�
 keywords: Hexo,HTML,CSS,javascript,wxh,WuXiaohong,吴小红,Wu,XiaoHong,Vue,React,ngrok,nginx,juejin
 author: WuXiaohong
 language: Chinese
-timezone: Beijing
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
