@@ -39,27 +39,28 @@ import createjs from 'createjs-npm'
   let gameView = new createjs.Container() // 创建容器
   let bitmap = new createjs.Bitmap(backgroundImage) // 填充背景
 ```
-+ 绘制图形
-> 项目中我只用到了矩形和圆形
-> 大家可以参考[文档1](https://www.cnblogs.com/libin-1/p/6944584.html)
-[文档2](https://www.cnblogs.com/beidan/p/7055422.html)
 
+项目中我只用到了矩形和圆形
+大家可以参考[文档1](https://www.cnblogs.com/libin-1/p/6944584.html)[文档2](https://www.cnblogs.com/beidan/p/7055422.html)
+
++ 绘制图形
 ```javascript
- let Table = new createjs.Shape() // 桌子
- createjs.Tween.get(Table, {
-   loop: true
- }).to({
+  let Table = new createjs.Shape() // 桌子
+  createjs.Tween.get(Table, {
+    loop: true
+  }).to({
      alpha: 0.08,
      scaleX: 2, // 移动到指定X坐标
      scaleY: 2 // 移动到指定Y坐标
-   },
-   1500,
-   createjs.Ease.quadOut
- );
-Table.graphics
+  },
+    1500,
+    createjs.Ease.quadOut
+  );
+  Table.graphics
       .beginFill(tableColorActive)
       .drawCircle(0, 0, tableSize / 4)
 ```
+
 + 绘制图片
 ```javascript
   // 绘制门
