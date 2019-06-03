@@ -24,7 +24,7 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        Hone: /
+        Home: /
         Archives: /archives
         Categories : /categories
         Tags: /tags
