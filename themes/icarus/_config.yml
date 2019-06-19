@@ -166,7 +166,7 @@ widgets:
             # PPOffice: 'https://github.com/ppoffice'
             Linhf: 'https://blog.linhuifeng.com'
             52Admin : 'https://52admin.net'
-            Changjun : 'https://52chinaweb.com'
+            Changjun : 'https://blog.52chinaweb.com'
     -
         # Widget name
         type: category
