@@ -167,6 +167,7 @@ widgets:
             Linhf: 'https://blog.linhuifeng.com'
             52Admin : 'https://52admin.net'
             Changjun : 'https://blog.52chinaweb.com'
+            '头像网站' : 'http://wxhboy.cn/img'
     -
         # Widget name
         type: category
