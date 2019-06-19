@@ -1,7 +1,7 @@
 ---
 title: 'node-js获取本机ip'
 date: 2019-06-17 17:18:25
-tags: ['css']
+tags: ['nodejs','javascript']
 categories: javascript
 summary: 使用node.js的os模块获取本地ip地址
 ---
