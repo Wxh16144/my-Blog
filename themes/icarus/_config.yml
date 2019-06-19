@@ -65,7 +65,9 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: changyan
+    appid: 'cyui7cgr0'
+    conf: 'prod_2192e03cb41a153d10bf4f11773efe8c'
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
