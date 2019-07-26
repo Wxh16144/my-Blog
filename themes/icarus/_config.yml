@@ -65,9 +65,19 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: changyan
-    appid: 'cyui7cgr0'
-    conf: 'prod_2192e03cb41a153d10bf4f11773efe8c'
+    # type: changyan
+    # appid: 'cyui7cgr0'
+    # conf: 'prod_2192e03cb41a153d10bf4f11773efe8c'
+    type: gitalk
+    owner: Wxh16144         # (required) GitHub user name
+    repo: 'my-Blog'          # (required) GitHub repository name
+    client_id: df45c374e7fe8e3e539f     # (required) OAuth application client id
+    client_secret: d46e82b8de4145947ffa5356cf7262f8c3595c5d # (required) OAuth application client secret
+    admin: Wxh16144         # (required) GitHub repo owner and collaborators who can initialize github issues
+                            #            Can either be a string or an array.
+                            #            admin:
+                            #                - xxxxxx1
+                            #                - xxxxxx2
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
