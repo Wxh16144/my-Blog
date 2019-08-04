@@ -6,5 +6,5 @@
 ![博客首页:http://blog.wxhboy.cn](./home.jpg)
 
 
-### 更新日志
+### 历程
 + [初次见面 Hello Hexo](http://blog.wxhboy.cn/2018/09/21/helloHexo/)
