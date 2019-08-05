@@ -7,4 +7,4 @@
 
 
 ### 历程
-+ [初次见面 Hello Hexo](http://blog.wxhboy.cn/2018/09/21/helloHexo/)
++ [初次见面 Hello Hexo](http://blog.wxhboy.cn/2018/07/21/helloHexo/)
