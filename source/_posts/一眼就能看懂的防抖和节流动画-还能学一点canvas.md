@@ -205,19 +205,21 @@ const throttle = (fn, t) => {
 const example_fn = (time = 300, living, log = false) => {
   const debounce_fn = debounce(() => {
     log && console.error('防抖')
+    living.data.lists.debounce_array_data.list.pop()
     living.data.lists.debounce_array_data.list.push(1)
   }, time)
   const throttle_fu = throttle(() => {
     log && console.warn('节流')
+    living.data.lists.throttle_array_data.list.pop()
     living.data.lists.throttle_array_data.list.push(1)
   }, time)
   return function() {
     log && console.log('普通')
     living.data.lists.common_array_data.list.push(1)
-    throttle_fu()
     living.data.lists.throttle_array_data.list.push(0)
-    debounce_fn()
     living.data.lists.debounce_array_data.list.push(0)
+    debounce_fn()
+    throttle_fu()
   }
 }
 ```
