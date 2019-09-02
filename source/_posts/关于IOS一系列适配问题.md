@@ -1,7 +1,7 @@
 ---
 title: 关于IOS一系列适配问题
 date: 2018-09-25 16:02:12
-tags: ['javscript', 'css']
+tags: ['javacript', 'css']
 ---
 
 总结与归纳在开发过程中遇到的**IOS**问题

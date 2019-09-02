@@ -1,7 +1,7 @@
 ---
 title: node.js获取控制台中命令行参数
 date: 2019-03-27 09:52:22
-tags: ['nodejs','javascript']
+tags: ['node','javascript']
 ---
 
 我应该如何获取到 `viewportWidth=750` 这个参数?
