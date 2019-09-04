@@ -127,6 +127,8 @@ img.thumbnail
         margin-right: 0
     .menu-list a.level
         display: flex
+    .has-text-centered figure.image
+        margin: auto
 
 .pagination
     .pagination-link:not(.is-current), .pagination-previous, .pagination-next
@@ -179,6 +181,8 @@ img.thumbnail
             max-width: 50%
             font-size: 1.15rem
             position: relative
+        a
+            word-wrap: break-word
 
 .rtl
      direction: rtl
@@ -354,6 +358,9 @@ figure.highlight
     width: 100%
     position: relative
     margin: 1em 0 1em !important
+    &.folded
+        .highlight-body
+            height: 0
 
     pre,
     table tr:hover
@@ -379,14 +386,29 @@ figure.highlight
         text-align: left
         font-style: normal
         font-size: .8em
+        &:after
+            clear: both
+            content: " "
+            display: table
 
         span
             font-weight: 500
             font-family: family-mono
 
+        .fold
+        a
+            color: #9a9a9a
+
         a
             float: right
-            color: #9a9a9a
+            margin-left: 0.5em
+
+        .fold
+            margin-right: 0.5em
+            cursor: pointer
+
+    .highlight-body
+        overflow: auto
 
     .gutter
         text-align: right
@@ -406,32 +428,30 @@ figure.highlight
         min-width: inherit
         border-radius: inherit
 
-    .copy
-        display: none
-        position: absolute
-        bottom: 0
-        right: 0
-        color: white
-        background: rgba(0, 0, 0, 0.5)
-    &:hover .copy
-        display: block
+/* ---------------------------------
+ *          Overflow Table
+ * --------------------------------- */
+.table-overflow
+    overflow-x: auto
+    table
+        width: auto!important
+        th
+            word-break: keep-all
 
 /* ---------------------------------
- *        Fix Video
+ *            Fix Video
  * --------------------------------- */
-.video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 25px;
-	height: 0;
-}
-.video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
+.video-container
+    position: relative
+    padding-bottom: 56.25%
+    padding-top: 25px
+    height: 0
+    iframe
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
 
 /* ---------------------------------
  *        Fix Gist Snippet
