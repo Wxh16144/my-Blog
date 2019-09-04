@@ -71,8 +71,8 @@ comment:
     type: gitalk
     owner: Wxh16144         # (required) GitHub user name
     repo: 'my-Blog'          # (required) GitHub repository name
-    client_id: df45c374e7fe8e3e539f     # (required) OAuth application client id
-    client_secret: d46e82b8de4145947ffa5356cf7262f8c3595c5d # (required) OAuth application client secret
+    client_id: 4f10562d3580cd239a3f     # (required) OAuth application client id
+    client_secret: 4ef6971eaea21e01e34c999bf226fabe352ab7f9 # (required) OAuth application client secret
     admin: Wxh16144         # (required) GitHub repo owner and collaborators who can initialize github issues
                             #            Can either be a string or an array.
                             #            admin:
