@@ -4,7 +4,7 @@ date: 2019-09-02 16:36:02
 tags: ['GIT']
 ---
 
-使用**变基(brease)** 修改已提交**Commit**的 **作者**(`author`) 和 **邮箱**(`email`);
+使用**变基(rebase)** 修改已提交**Commit**的 **作者**(`author`) 和 **邮箱**(`email`);
 
 <!--more-->
 
