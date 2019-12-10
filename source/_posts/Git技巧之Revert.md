@@ -196,6 +196,7 @@ ok,到这里恭喜你又学会一个技巧了；
 ### 总结
   + 这里我只用了一个文件 **a.txt** 来代替开发环境，只是做了一个模拟场景；工作项目中一个功能可能就会涉及到许多个文件，修改起来也比较麻烦；
   + 在执行一个自己不是很熟悉的命令时候，切记要新建一个分支来测试，避免造成不可挽回的损失；
+
 ### 参考文档
   + [Git恢复之前版本的两种方法reset、revert（图文详解）](https://blog.csdn.net/yxlshk/article/details/79944535)
   + [https://git-scm.com/docs/git-revert](https://git-scm.com/docs/git-revert)
