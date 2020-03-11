@@ -83,14 +83,14 @@ comment:
 donate:
     -
         # Donation entry name
-        type: alipay
+        # type: alipay
         # Qrcode image URL
-        qrcode: /images/alipay.JPG
+        # qrcode: /images/alipay.JPG
     -
         # Donation entry name
-        type: wechat
+        # type: wechat
         # Qrcode image URL
-        qrcode: /images/wechat.JPG
+        # qrcode: /images/wechat.JPG
     -
         # # Donation entry name
         # type: paypal
